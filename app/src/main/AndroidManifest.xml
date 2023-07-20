@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.androidexample">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!--api 33权限-->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <application
+        android:name="com.example.androidexample.App"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidExamples"
+        tools:targetApi="33">
+        <activity
+            android:name="com.example.androidexample.ui.S1Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.androidexample.ui.S2Activity" />
+        <activity android:name="com.example.androidexample.ui.S3Activity" />
+        <activity
+            android:name="com.example.androidexample.ui.S4Activity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.example.androidexample.ui.WebTelActivity"
+            android:launchMode="singleInstance" />
+
+        <service
+            android:name="com.example.androidexample.ForegroundService"
+            android:exported="true"
+            android:process=":foreground" />
+        <receiver android:name="com.example.androidexample.ui.HeadsetPlugReceiver"
+            tools:ignore="Instantiatable" />
+    </application>
+
+</manifest>

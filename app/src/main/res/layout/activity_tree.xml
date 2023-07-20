@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.S2Activity">
+
+
+    <ImageView
+        android:id="@+id/treeIv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_tree_6"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_red_packet_9"
+
+        app:layout_constraintBottom_toBottomOf="@id/treeIv"
+        app:layout_constraintEnd_toEndOf="@id/treeIv"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="@id/treeIv"
+
+        app:layout_constraintTop_toTopOf="@id/treeIv"
+        app:layout_constraintVertical_bias="0.484" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_red_packet_9"
+
+        app:layout_constraintBottom_toBottomOf="@id/treeIv"
+        app:layout_constraintEnd_toEndOf="@id/treeIv"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="@id/treeIv"
+
+        app:layout_constraintTop_toTopOf="@id/treeIv"
+        app:layout_constraintVertical_bias="0.484" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_red_packet_9"
+
+        app:layout_constraintBottom_toBottomOf="@id/treeIv"
+        app:layout_constraintEnd_toEndOf="@id/treeIv"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="@id/treeIv"
+
+        app:layout_constraintTop_toTopOf="@id/treeIv"
+        app:layout_constraintVertical_bias="0.293" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_red_packet_9"
+
+        app:layout_constraintBottom_toBottomOf="@id/treeIv"
+        app:layout_constraintEnd_toEndOf="@id/treeIv"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toStartOf="@id/treeIv"
+
+        app:layout_constraintTop_toTopOf="@id/treeIv"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_red_packet_9"
+
+        app:layout_constraintBottom_toBottomOf="@id/treeIv"
+        app:layout_constraintEnd_toEndOf="@id/treeIv"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="@id/treeIv"
+
+        app:layout_constraintTop_toTopOf="@id/treeIv"
+        app:layout_constraintVertical_bias="0.482" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_red_packet_9"
+
+        app:layout_constraintBottom_toBottomOf="@id/treeIv"
+        app:layout_constraintEnd_toEndOf="@id/treeIv"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="@id/treeIv"
+
+        app:layout_constraintTop_toTopOf="@id/treeIv"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_red_packet_9"
+
+        app:layout_constraintBottom_toBottomOf="@id/treeIv"
+        app:layout_constraintEnd_toEndOf="@id/treeIv"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="@id/treeIv"
+
+        app:layout_constraintTop_toTopOf="@id/treeIv"
+        app:layout_constraintVertical_bias="0.224" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_red_packet_9"
+
+        app:layout_constraintBottom_toBottomOf="@id/treeIv"
+        app:layout_constraintEnd_toEndOf="@id/treeIv"
+        app:layout_constraintHorizontal_bias="0.744"
+        app:layout_constraintStart_toStartOf="@id/treeIv"
+
+        app:layout_constraintTop_toTopOf="@id/treeIv"
+        app:layout_constraintVertical_bias="0.256" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_red_packet_9"
+
+        app:layout_constraintBottom_toBottomOf="@+id/treeIv"
+        app:layout_constraintEnd_toEndOf="@id/treeIv"
+        app:layout_constraintHorizontal_bias="0.1"
+
+        app:layout_constraintStart_toStartOf="@id/treeIv"
+        app:layout_constraintTop_toTopOf="@id/treeIv"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <Button
+        android:id="@+id/btn_s2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nextActivity"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/treeIv"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.099887766" />
+
+    <Button
+        android:id="@+id/btn_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="266dp"
+        android:text="相册"
+        app:layout_constraintBottom_toBottomOf="@+id/treeIv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:layout_constraintVertical_bias="0.283" />
+
+    <Button
+        android:id="@+id/btn_takephoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拍照"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_album"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.58" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

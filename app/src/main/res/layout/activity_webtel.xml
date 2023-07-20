@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.WebTelActivity">
+
+
+    <Button
+        android:id="@+id/tv_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_marginTop="20dp"
+        android:background="#00f"
+        android:text="--"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/tv_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_marginTop="20dp"
+        android:background="#00f"
+        android:text="关闭当前页面"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="60dp"
+        android:background="#F4C8B9"
+        android:gravity="center"
+        android:padding="40dp"
+        android:text="通话页面"
+        android:textSize="18sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
